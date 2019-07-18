@@ -1,0 +1,303 @@
+fileFormatVersion: 2
+guid: f17f1609667c4314099b0fb2039209ca
+timeCreated: 1553822809
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A00"
+    100002: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A01"
+    100004: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A016"
+    100006: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A017"
+    100008: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A018"
+    100010: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A019"
+    100012: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A02"
+    100014: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A020"
+    100016: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A021"
+    100018: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A022"
+    100020: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A023"
+    100022: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A024"
+    100024: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A025"
+    100026: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A026"
+    100028: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A027"
+    100030: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A028"
+    100032: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A029"
+    100034: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A03"
+    100036: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A030"
+    100038: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A031"
+    100040: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A04"
+    100042: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A05"
+    100044: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A06"
+    100046: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A07"
+    100048: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A08"
+    100050: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A09"
+    100052: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A10"
+    100054: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A11"
+    100056: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A12"
+    100058: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A13"
+    100060: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A14"
+    100062: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A15"
+    100064: //RootNode
+    400000: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A00"
+    400002: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A01"
+    400004: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A016"
+    400006: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A017"
+    400008: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A018"
+    400010: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A019"
+    400012: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A02"
+    400014: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A020"
+    400016: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A021"
+    400018: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A022"
+    400020: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A023"
+    400022: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A024"
+    400024: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A025"
+    400026: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A026"
+    400028: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A027"
+    400030: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A028"
+    400032: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A029"
+    400034: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A03"
+    400036: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A030"
+    400038: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A031"
+    400040: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A04"
+    400042: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A05"
+    400044: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A06"
+    400046: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A07"
+    400048: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A08"
+    400050: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A09"
+    400052: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A10"
+    400054: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A11"
+    400056: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A12"
+    400058: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A13"
+    400060: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A14"
+    400062: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A15"
+    400064: //RootNode
+    2300000: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A00"
+    2300002: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A01"
+    2300004: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A016"
+    2300006: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A017"
+    2300008: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A018"
+    2300010: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A019"
+    2300012: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A02"
+    2300014: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A020"
+    2300016: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A021"
+    2300018: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A022"
+    2300020: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A023"
+    2300022: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A024"
+    2300024: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A025"
+    2300026: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A026"
+    2300028: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A027"
+    2300030: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A028"
+    2300032: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A029"
+    2300034: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A03"
+    2300036: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A030"
+    2300038: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A031"
+    2300040: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A04"
+    2300042: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A05"
+    2300044: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A06"
+    2300046: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A07"
+    2300048: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A08"
+    2300050: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A09"
+    2300052: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A10"
+    2300054: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A11"
+    2300056: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A12"
+    2300058: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A13"
+    2300060: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A14"
+    2300062: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A15"
+    3300000: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A00"
+    3300002: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A01"
+    3300004: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A016"
+    3300006: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A017"
+    3300008: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A018"
+    3300010: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A019"
+    3300012: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A02"
+    3300014: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A020"
+    3300016: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A021"
+    3300018: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A022"
+    3300020: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A023"
+    3300022: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A024"
+    3300024: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A025"
+    3300026: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A026"
+    3300028: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A027"
+    3300030: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A028"
+    3300032: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A029"
+    3300034: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A03"
+    3300036: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A030"
+    3300038: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A031"
+    3300040: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A04"
+    3300042: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A05"
+    3300044: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A06"
+    3300046: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A07"
+    3300048: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A08"
+    3300050: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A09"
+    3300052: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A10"
+    3300054: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A11"
+    3300056: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A12"
+    3300058: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A13"
+    3300060: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A14"
+    3300062: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A15"
+    4300000: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A00"
+    4300002: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A01"
+    4300004: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A02"
+    4300006: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A03"
+    4300008: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A04"
+    4300010: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A05"
+    4300012: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A06"
+    4300014: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A07"
+    4300016: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A08"
+    4300018: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A09"
+    4300020: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A10"
+    4300022: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A11"
+    4300024: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A12"
+    4300026: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A13"
+    4300028: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A14"
+    4300030: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A15"
+    4300032: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A016"
+    4300034: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A017"
+    4300036: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A018"
+    4300038: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A019"
+    4300040: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A020"
+    4300042: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A021"
+    4300044: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A022"
+    4300046: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A023"
+    4300048: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A024"
+    4300050: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A025"
+    4300052: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A026"
+    4300054: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A027"
+    4300056: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A028"
+    4300058: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A029"
+    4300060: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A030"
+    4300062: "3\u706F\u9AD8\u67F1\u4FE1\u53F7\u673A031"
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 543
+    second: {fileID: 2100000, guid: f3ad5231468deab41b4cc22772a6ed72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1213'
+    second: {fileID: 2100000, guid: f8062595c92703b44a87fa9ed5764d1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1215'
+    second: {fileID: 2100000, guid: 5b36ab1340de7684887815f87ba0c763, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1216'
+    second: {fileID: 2100000, guid: 1dbff9dea0723404cb9423d4844e7d9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1218'
+    second: {fileID: 2100000, guid: 528e3600055b9904bbff4160615deeac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1233'
+    second: {fileID: 2100000, guid: d45fa5cdf51da7445b205a36a95d313e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1238'
+    second: {fileID: 2100000, guid: 3816e4a142fbdd849865cfcf01beb5e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1240'
+    second: {fileID: 2100000, guid: 0cabd5898fbe3234bad59385afbb3a5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1303'
+    second: {fileID: 2100000, guid: 0001c3920ac20ef4ebd427731e6bb8e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__23
+    second: {fileID: 2100000, guid: 437ed35abcb99da46aa774eed94d9299, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dengpian
+    second: {fileID: 2100000, guid: 4ec0f2b28011e2a40b8e66a0852b51e8, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

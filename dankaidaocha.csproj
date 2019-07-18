@@ -1,0 +1,547 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A8766B33-48D7-500C-BED2-8D8BFCF4798C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2017.2.1f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_2_1;UNITY_2017_2;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_2_1;UNITY_2017_2;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WebModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WebModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticlesLegacyModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceTesting">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/UnityExtensions/Unity/PerformanceTesting/UnityEngine.PerformanceTesting.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIAutomation">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>D:/Unity2017.2.1/安装包/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="StagPoint.Eval">
+      <HintPath>Assets/ParadoxNotion/SLATE Cinematic Sequencer/Utility/Expressions/Plugins/StagPoint.Eval.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Users/Administrator/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>C:/Users/Administrator/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="dankaidaocha.Plugins.csproj">
+      <Project>{F941D0BA-63AD-9AA4-A535-1E3CC2EA840B}</Project>
+      <Name>dankaidaocha.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Advanced\CameraTargeting.cs" />
+    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Advanced\CompoundObjectController.cs" />
+    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Advanced\FlashingController.cs" />
+    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Advanced\HighlighterController.cs" />
+    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Advanced\HighlighterOccluder.cs" />
+    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Advanced\SpectrumController.cs" />
+    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Basic\CSHighlighterController.cs" />
+    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Helpers\MovementController.cs" />
+    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Helpers\RotationController.cs" />
+    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Service\CameraFlyController.cs" />
+    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Service\FPSCounter.cs" />
+    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Service\PresetSelector.cs" />
+    <Compile Include="Assets\HighlightingSystemDemo\Scripts\Service\SceneLoader.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\_QuickStartScripts\CutsceneSequencePlayer.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\_QuickStartScripts\PlayCutsceneOnClick.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\_QuickStartScripts\PlayCutsceneOnStart.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\_QuickStartScripts\PlayCutsceneOnTrigger.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Cameras\DirectorCamera.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Cameras\DirectorGUI.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Cameras\DynamicCameraController.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Cameras\GameCamera.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Cameras\IDirectableCamera.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Cameras\ShotCamera.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Characters\BlendShape.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Characters\BlendShapeGroup.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Characters\Character.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Design\Attributes.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Design\Partial Editor\AnimatableParameterEditor.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Design\Partial Editor\CurveDrawer.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Design\Partial Editor\CurveEditor.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Design\Partial Editor\CurveEditor3D.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Design\Partial Editor\CutsceneUtility.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Design\Partial Editor\DopeSheetEditor.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Design\Partial Editor\EditorTools.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Design\Partial Editor\Prefs.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Design\Partial Editor\Styles.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Design\PropertyAttributes.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\ActorActionClip.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\AnimateProperties.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Character\AnimateBlendShape.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Character\CharacterExpression.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Character\CharacterLookAt.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Events\SendMessage(T).cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Events\SendMessage.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Events\SendMessageBoolean.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Events\SendMessageFloat.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Events\SendMessageInteger.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Events\SendMessageObject.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Events\SendMessageString.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\GameObject\AnimateActorVisibility.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\GameObject\SetActorActiveState.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\GameObject\SetActorVisibilityTemporary.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\GameObject\SetBehavioursActiveState.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Paths\AnimateOnPath.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Paths\FollowPath.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Paths\PathfindTo.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Renderer\AnimateMaterialColor.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Renderer\AnimateMaterialFloat.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Renderer\AnimateMaterialTexture.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Renderer\ScrollMaterialTexture.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Renderer\SetMaterial.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Renderer\SetMaterialTexture.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Sprites\SetSortingLayer.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Sprites\SetSprite.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Sprites\SpriteFlipbook.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Transform\AttachObject.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Transform\AttachObjectPrefab.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Transform\LookAt.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Transform\MatchTransformsToTarget.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Transform\Noise.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Transform\PinToTarget.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Transform\RotateAround.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Transform\RotateBy.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Transform\RotateTo.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Transform\ScaleBy.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Transform\ScaleTo.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Transform\SetParentTemporary.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Transform\SetTransformParent.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Transform\SetTransformValues.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Transform\SimpleGrounder.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Transform\TranslateBy.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\ActorActions\Transform\TranslateTo.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Composition\AdditiveScene.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Composition\SubCutscene.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Control\DestroyGameObjects.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Control\DirectorDisableGameObjects.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Control\DirectorEnableGameObjects.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Control\InstantiateObject.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Control\SampleParticleSystem.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\DirectorActionClip.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Environment\AnimateAmbientLighting.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Environment\AnimateFog.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Environment\AnimateGravity.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Environment\AnimateTimeScale.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Environment\EasySlowMotion.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Events\RaiseUnityEvent.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Events\SendGlobalMessage(T).cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Events\SendGlobalMessage.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Events\SendGlobalMessageBoolean.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Events\SendGlobalMessageFloat.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Events\SendGlobalMessageInteger.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Events\SendGlobalMessageObject.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Events\SendGlobalMessageString.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Rendering\Captions.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Rendering\CineBox.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Rendering\OverlayText.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Rendering\OverlayTexture.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Rendering\ScreenFader.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Utility\AnimatePlaybackSpeed.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Utility\DebugLog.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Utility\PauseCutscene.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ActionTrack\DirectorActions\Utility\ScreenCapture.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\AnimationTrack\PlayAnimationClip.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\AnimatorTrack\PlayAnimatorClip.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\AudioTrack\PlayAudio.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\Enums.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\MecanimTrack\AnimateBoolParameter.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\MecanimTrack\AnimateFloatParameter.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\MecanimTrack\AnimateIntegerParameter.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\MecanimTrack\AnimateLayerWeight.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\MecanimTrack\AnimateLimbIK.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\MecanimTrack\AnimateLookAtIK.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\MecanimTrack\AnimateTrigger.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\MecanimTrack\CrossFadeState.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\MecanimTrack\MecanimBaseClip.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Clips\Runtime\ShotTrack\CameraShot.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Groups\Runtime\ActorGroup.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Groups\Runtime\DirectorGroup.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Tracks\Runtime\ActionTrack.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Tracks\Runtime\Actor\ActorActionTrack.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Tracks\Runtime\Actor\ActorAudioTrack.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Tracks\Runtime\Actor\ActorPropertiesTrack.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Tracks\Runtime\Actor\AnimationTrack.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Tracks\Runtime\Actor\AnimatorTrack.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Tracks\Runtime\Actor\MecanimTrack.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Tracks\Runtime\AudioTrack.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Tracks\Runtime\Director\CameraTrack.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Tracks\Runtime\Director\DirectorActionTrack.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Tracks\Runtime\Director\DirectorAudioTrack.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Tracks\Runtime\Director\DirectorPropertiesTrack.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Directables\Tracks\Runtime\PropertiesTrack.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Framework\ActionClip.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Framework\AnimatedParameter.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Framework\AnimationDataCollection.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Framework\Cutscene.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Framework\CutsceneGroup.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Framework\CutsceneTrack.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Framework\IAnimatableData.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Framework\IDirectable.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Framework\IDirector.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Framework\Section.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Framework\TimePointers.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Paths\BezierPath.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Paths\BezierPoint.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Paths\Path.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Utility\AnimatorDispatcher.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Utility\AudioSampler.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Utility\CurveUtility.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Utility\Easing.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Utility\Expressions\ExpressionUtilities.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Utility\Expressions\ExpressionWrappers.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Utility\Extensions.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Utility\ITransformableHelperParameter.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Utility\ObjectSnapshot.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Utility\Perlin.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Utility\PositionParameter.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Utility\ReflectionTools.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Utility\TransformationParameter.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Utility\TransformSnapshot.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Utility\UTJ\FrameCapturer\BaseImageSequenceRecorder.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Utility\UTJ\FrameCapturer\Bool.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Utility\UTJ\FrameCapturer\ExrRecorder.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Utility\UTJ\FrameCapturer\fcAPI.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Utility\UTJ\FrameCapturer\FixDeltaTime.cs" />
+    <Compile Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Utility\UTJ\FrameCapturer\PngRecorder.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\BloomComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\DitheringComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\FogComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\FxaaComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\GrainComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\TaaComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\VignetteComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\BloomModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\FogModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\GrainModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\UserLutModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\VignetteModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingContext.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingProfile.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+    <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\TTTProject\Scripts\01检查工具\CameraKongZhi.cs" />
+    <Compile Include="Assets\TTTProject\Scripts\01检查工具\CElement.cs" />
+    <Compile Include="Assets\TTTProject\Scripts\01检查工具\FreeView.cs" />
+    <Compile Include="Assets\TTTProject\Scripts\01检查工具\IntroduceTools.cs" />
+    <Compile Include="Assets\TTTProject\Scripts\01检查工具\ToolsNameAndIntroduce.cs" />
+    <Compile Include="Assets\公用Scripts\其余脚本\AppleBtn.cs" />
+    <Compile Include="Assets\公用Scripts\其余脚本\CallApplication.cs" />
+    <Compile Include="Assets\公用Scripts\其余脚本\ControllerButton.cs" />
+    <Compile Include="Assets\公用Scripts\其余脚本\ControllerWindows.cs" />
+    <Compile Include="Assets\公用Scripts\其余脚本\EventTrigger_TwoLevel1.cs" />
+    <Compile Include="Assets\公用Scripts\其余脚本\FlashColor.cs" />
+    <Compile Include="Assets\公用Scripts\其余脚本\GL_Static.cs" />
+    <Compile Include="Assets\公用Scripts\其余脚本\InsObjects.cs" />
+    <Compile Include="Assets\公用Scripts\其余脚本\ObjectRotate.cs" />
+    <Compile Include="Assets\公用Scripts\学习模式脚本\ChangePlayMode.cs" />
+    <Compile Include="Assets\公用Scripts\学习模式脚本\ControllBar.cs" />
+    <Compile Include="Assets\公用Scripts\学习模式脚本\RadioController.cs" />
+    <Compile Include="Assets\公用Scripts\学习模式脚本\UI_Selfmagnification.cs" />
+    <Compile Include="Assets\公用Scripts\学习模式脚本\VideoPlayManager.cs" />
+    <Compile Include="Assets\公用Scripts\学习模式脚本\VideoPointController.cs" />
+    <Compile Include="Assets\公用Scripts\练习考试脚本\DanKai_CutSceneController.cs" />
+    <Compile Include="Assets\公用Scripts\练习考试脚本\DanKai_ExamUserInterface.cs" />
+    <Compile Include="Assets\公用Scripts\练习考试脚本\DanKai_MouseController.cs" />
+    <Compile Include="Assets\公用Scripts\练习考试脚本\DanKai_PracticeUserInterface.cs" />
+    <Compile Include="Assets\公用Scripts\练习考试脚本\DanKai_ProjectObjectController.cs" />
+    <Compile Include="Assets\公用Scripts\练习考试脚本\DanKai_ToolButtonsDragDrop.cs" />
+    <Compile Include="Assets\公用Scripts\练习考试脚本\DanKai_UserInterfaceController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\!READ ME!.txt" />
+    <None Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Utility\Expressions\Plugins\LICENSE (StagPoint.Eval).txt" />
+    <None Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Utility\UTJ\FrameCapturer\CopyFrameBuffer.shader" />
+    <None Include="Assets\ParadoxNotion\SLATE Cinematic Sequencer\Utility\UTJ\LICENCE (FrameCapturer).txt" />
+    <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingBlur.shader" />
+    <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingComposite.shader" />
+    <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingCut.shader" />
+    <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingOpaque.shader" />
+    <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingTransparent.shader" />
+    <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
+    <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
+    <None Include="Assets\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
+    <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
+    <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+    <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+    <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+    <None Include="Assets\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
+    <None Include="Assets\PostProcessing\Editor Resources\UI\Trackball.shader" />
+    <None Include="Assets\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
+    <None Include="Assets\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\ACES.cginc" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\Blit.shader" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.cginc" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.shader" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\Common.cginc" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\FXAA.shader" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\FXAA3.cginc" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\Fog.shader" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\GrainGen.shader" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\LutGen.shader" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\TAA.cginc" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\TAA.shader" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\Uber.shader" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+    <None Include="Assets\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+    <None Include="Assets\SkySerie Freebie\Hdri setup.txt" />
+    <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

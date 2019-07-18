@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/TTTProject/Scenes/DanKai.MainScene.unity
+    guid: cdb1dd0bcfe694e4ba750be80160f58f
+  - enabled: 1
+    path: "Assets/TTTProject/Scenes/01\u5355\u5F00\u9053\u5C94\u68C0\u67E5\u5DE5\u5177/JianChaGongJu.LianXi.unity"
+    guid: 5cf9a5be8ff0556429774135772015b2
+  - enabled: 1
+    path: "Assets/TTTProject/Scenes/02\u4F7F\u7528\u8F68\u8DDD\u5C3A\u68C0\u67E5\u5355\u5F00\u9053\u5C94/GuiJuChiJianCha.ErJi.unity"
+    guid: 175a461614a59cc459fbba53e04b36b7
+  - enabled: 1
+    path: "Assets/TTTProject/Scenes/02\u4F7F\u7528\u8F68\u8DDD\u5C3A\u68C0\u67E5\u5355\u5F00\u9053\u5C94/GuiJuChiJianCha.KaoHe.unity"
+    guid: 4500bef75d19b3f4289b93679ee30fa1
+  - enabled: 1
+    path: "Assets/TTTProject/Scenes/02\u4F7F\u7528\u8F68\u8DDD\u5C3A\u68C0\u67E5\u5355\u5F00\u9053\u5C94/GuiJuChiJianCha.LianXi.unity"
+    guid: 9e45602d8906f39478f9c38a50d02be8
+  - enabled: 1
+    path: "Assets/TTTProject/Scenes/02\u4F7F\u7528\u8F68\u8DDD\u5C3A\u68C0\u67E5\u5355\u5F00\u9053\u5C94/GuiJuChiJianCha.XueXi.unity"
+    guid: 09bc7715649072745b34e28b0c216f54
+  - enabled: 1
+    path: "Assets/TTTProject/Scenes/03\u4F7F\u7528\u652F\u8DDD\u5C3A\u68C0\u67E5\u5355\u5F00\u9053\u5C94/ZhiJuChiJianCha.ErJi.unity"
+    guid: c5bf5c6a7655b1c488c6ee5c9f90c20d
+  - enabled: 1
+    path: "Assets/TTTProject/Scenes/03\u4F7F\u7528\u652F\u8DDD\u5C3A\u68C0\u67E5\u5355\u5F00\u9053\u5C94/ZhiJuChiJianCha.KaoHe.unity"
+    guid: 402428760707f984da8c1bb93f411184
+  - enabled: 1
+    path: "Assets/TTTProject/Scenes/03\u4F7F\u7528\u652F\u8DDD\u5C3A\u68C0\u67E5\u5355\u5F00\u9053\u5C94/ZhiJuChiJianCha.LianXi.unity"
+    guid: 9b1028f4bcf3922409aa268474f61f8f
+  - enabled: 1
+    path: "Assets/TTTProject/Scenes/03\u4F7F\u7528\u652F\u8DDD\u5C3A\u68C0\u67E5\u5355\u5F00\u9053\u5C94/ZhiJuChiJianCha.XueXi.unity"
+    guid: 5fbc87b2f8237164ca4fc221f61f651a
+  - enabled: 1
+    path: "Assets/TTTProject/Scenes/04\u68C0\u67E5\u9053\u5C94\u5404\u4E3B\u8981\u90E8\u4F4D\u7684\u6709\u5173\u5C3A\u5BF8\u53CA\u9053\u5C94\u8FDE\u63A5\u96F6\u4EF6\u3001\u5916\u89C2\u3001\u6807\u5FD7/JianChaDaoChaZhuYaoBuWei.ErJi.unity"
+    guid: 600ec1aac59705644a74a7823ed7f221
+  - enabled: 1
+    path: "Assets/TTTProject/Scenes/04\u68C0\u67E5\u9053\u5C94\u5404\u4E3B\u8981\u90E8\u4F4D\u7684\u6709\u5173\u5C3A\u5BF8\u53CA\u9053\u5C94\u8FDE\u63A5\u96F6\u4EF6\u3001\u5916\u89C2\u3001\u6807\u5FD7/JianChaDaoChaZhuYaoBuWei.KaoHe.unity"
+    guid: 01310f69175be2541b9ffc2a06c3fc9e
+  - enabled: 1
+    path: "Assets/TTTProject/Scenes/04\u68C0\u67E5\u9053\u5C94\u5404\u4E3B\u8981\u90E8\u4F4D\u7684\u6709\u5173\u5C3A\u5BF8\u53CA\u9053\u5C94\u8FDE\u63A5\u96F6\u4EF6\u3001\u5916\u89C2\u3001\u6807\u5FD7/JianChaDaoChaZhuYaoBuWei.LianXi.unity"
+    guid: 9311ad05438ac5a41ad9b0b65ffda243
+  - enabled: 1
+    path: "Assets/TTTProject/Scenes/04\u68C0\u67E5\u9053\u5C94\u5404\u4E3B\u8981\u90E8\u4F4D\u7684\u6709\u5173\u5C3A\u5BF8\u53CA\u9053\u5C94\u8FDE\u63A5\u96F6\u4EF6\u3001\u5916\u89C2\u3001\u6807\u5FD7/JianChaDaoChaZhuYaoBuWei.XueXi.unity"
+    guid: e111a7101efba97418411b1c4b1c3b67
